@@ -15,7 +15,7 @@
             </div>
           @endforeach
 
-          @foreach (Lang::get('awards.certifications') as $item)
+          @foreach (Lang::get('education.certifications') as $item)
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
               <h3 class="mb-0">{{ $item['title'] }}</h3>
