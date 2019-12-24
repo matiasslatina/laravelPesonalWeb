@@ -1,7 +1,7 @@
 <?php
 
 return[
-    'skills'=>'aptitudes',
+    'skills'=>'Conocimentos',
     'descriptionBack'=>'Back-end',
     'descriptionFront'=>'Front-end',
     'descriptionFrameworks'=>'Frameworks and libraries',
