@@ -2,21 +2,32 @@
 
 return[
     'skills'=>'aptitudes',
-    'description'=>'LENGUAJES Y HERRAMIENTAS DE PROGRAMACIÓN',
-    'lenguajes' =>
+    'descriptionBack'=>'Back-end',
+    'descriptionFront'=>'Front-end',
+    'descriptionFrameworks'=>'Frameworks and libraries',
+    'database'=>'Databases',
+    'descriptionVersion'=>'Version control system',
+    'backend' =>
     [
         [
             'title'=>'PHP',
             'class'=>'devicons-php'
         ],
         [
-            'title'=>'Laravel',
-            'class'=>'devicons-laravel'
+            'title'=>'Node JS',
+            'class'=>'devicons-nodejs'
         ],
         [
-            'title'=>'Android (Kotlin)',
-            'class'=>'devicons-android'
+            'title'=>'Python',
+            'class'=>'devicons-python'
         ],
+        [
+            'title'=>'Javasript',
+            'class'=>'devicons-javascript'
+        ],
+    ],
+    'frontend' =>
+    [
         [
             'title'=>'HTLM5',
             'class'=>'devicons-html5'
@@ -28,6 +39,13 @@ return[
         [
             'title'=>'Javasript',
             'class'=>'devicons-javascript'
+        ]
+    ],
+    'frameworks' =>
+    [
+        [
+            'title'=>'Laravel',
+            'class'=>'devicons-laravel'
         ],
         [
             'title'=>'JQuery',
@@ -41,9 +59,23 @@ return[
             'title'=>'Bootstrap',
             'class'=>'devicons-bootstrap'
         ],
+    ],
+    'version' =>
+    [
         [
             'title'=>'GIT',
             'class'=>'devicons-git'
+        ],
+    ],
+    'databases' =>
+    [
+        [
+            'title'=>'Mysql',
+            'class'=>'devicons-mysql'
+        ],
+        [
+            'title'=>'Mongo DB',
+            'class'=>'devicons-mongodb'
         ],
     ],
 ]

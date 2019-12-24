@@ -23,9 +23,15 @@ return[
         [
             'title'=>'Desarrollo en React JS',
             'place'=>'UTN - Uiversidad Tecnológica Nacional',
-            'description'=>'Aplicación y adaptación de los conocimientos en programación web al desarrollo de aplicaciones SPA explotando las ventajas brindadas por Reac en cuanto al flujo de datos.',
+            'description'=>'Aplicación y adaptación de los conocimientos en programación web al desarrollo de aplicaciones SPA explotando las ventajas brindadas por React en cuanto al flujo de datos.',
             'date'=>'Feb 2020 - May 2020'
-        ]
+        ],
+        [
+            'title'=>'Curso de React JS',
+            'place'=>'Educación IT',
+            'description'=>'Desarrollo de aplicaciones Web en Javascript utilizando ReactJS , la librería de código abierto con mayor crecimiento en la Web, creada por Facebook.',
+            'date'=>'En 2020'
+        ],
     ],
 ]
 
