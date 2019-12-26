@@ -14,4 +14,5 @@ const mix = require('laravel-mix');
 /*mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');*/
 
-mix.sass('resources/css/resume.scss', 'public/css');
+mix.sass('resources/css/resume.scss', 'public_html/css')
+    .sass('resources/css/devicon.scss', 'public_html/vendor/devicons_new/css');
